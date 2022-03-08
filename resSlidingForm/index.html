@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sliding Form</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="blueBg">
+            <div class="box signin">
+                <h2>Already Have an Account ?</h2>
+                <button class="signinBtn">Sign In</button>
+            </div>
+            <div class="box signup">
+                <h2>Don't Have an Account ?</h2>
+                <button class="signinBtn">Sign Up</button>
+            </div>
+        </div>
+        <div class="formBx">
+
+        </div>
+    </div>
+    <script>
+        const signinBtn = document.querySelector('.signinBtn');
+        const signupBtn = document.querySelector('.signupBtn');
+        const formBx = document.querySelector('.formBx');
+
+        signupBtn.onclick = function() {
+            formBx.classList.add('active')
+        }
+    </script>
+    
+</body>
+</html>
