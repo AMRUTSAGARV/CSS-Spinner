@@ -160,7 +160,7 @@ body.active {
     height: 150px;
     bottom: 0;
   }
-  .box .signin {
+  .box.signin {
     top: 0;
   }
   .formBx.active {
